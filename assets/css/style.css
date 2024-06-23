@@ -1,0 +1,72 @@
+@charset "UTF-8";
+:root {  
+    --cor1: rgb(250, 235, 215);
+    --cor2: rgb(185, 173, 157);
+
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor1)
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: var(--cor2);
+    padding: 65px;
+    line-height: 1.5em;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container2{
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+#box1{
+    margin-left: 0px;
+}
+#box2{
+    margin-left: 150px;
+}
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 1px solid var(--cor1);
+}
+form button{
+    border: none;
+    background: var(--cor1);
+    color: var(--cor2);
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.res{
+    color: white;
+    font-size: 1.3em;
+}
+input#botao:hover{
+    background-color: rgb(70, 20, 20);
+    font-size: 25px;
+    color: white;
+}
